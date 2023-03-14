@@ -5,12 +5,14 @@ import NS.Bourse.model.Student;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.stereotype.Component;
 
 import java.util.*;
 
 @Data
 @AllArgsConstructor
 
+@Component("d1")
 public class Eligibility_dao implements IEligibilty_dao<Student,Long> {
 
 
